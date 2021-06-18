@@ -1,6 +1,6 @@
 # RailsNm
 
-TODO: Write a gem description
+Render .nm.json templates in Rails.
 
 ## Usage
 

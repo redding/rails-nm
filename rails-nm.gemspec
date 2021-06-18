@@ -8,11 +8,11 @@ require "rails-nm/version"
 Gem::Specification.new do |gem|
   gem.name        = "rails-nm"
   gem.version     = RailsNm::VERSION
-  gem.authors     = ["TODO: authors"]
-  gem.email       = ["TODO: emails"]
-  gem.summary     = "TODO: Write a gem summary"
-  gem.description = "TODO: Write a gem description"
-  gem.homepage    = "TODO: homepage"
+  gem.authors     = ["Kelly Redding", "Collin Redding"]
+  gem.email       = ["kelly@kellyredding.com", "collin.redding@me.com"]
+  gem.summary     = "Render .nm.json templates in Rails."
+  gem.description = "Render .nm.json templates in Rails."
+  gem.homepage    = "https://github.com/redding/rails-nm"
   gem.license     = "MIT"
 
   gem.files = `git ls-files | grep "^[^.]"`.split($INPUT_RECORD_SEPARATOR)
@@ -25,6 +25,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency("much-style-guide", ["~> 0.6.4"])
   gem.add_development_dependency("assert",           ["~> 2.19.6"])
+  gem.add_development_dependency("rails",            ["> 5.0", "< 7.0"])
 
-  # TODO: gem.add_dependency("gem-name", ["~> 0.0.0"])
+  gem.add_dependency("nm", ["~> 0.5.4"])
 end
