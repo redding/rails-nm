@@ -1,0 +1,5 @@
+# frozen_string_literal: true
+
+node "id", user.id
+node "firstName", user.first_name
+node "lastName", user.last_name
