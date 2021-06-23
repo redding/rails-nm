@@ -1,10 +1,10 @@
 # RailsNm
 
-Render .nm.json templates in Rails.
+Render `.json.nm` [Nm](https://github.com/redding/nm) templates in Rails.
 
 ## Usage
 
-TODO: Write code samples and usage instructions here
+There is nothing to do other than add the gem to your Gemfile. You can then add .json.nm templates to your JSON resource actions in `app/views`. See https://github.com/redding/nm#nm for details on the Nm template syntax.
 
 ## Installation
 
